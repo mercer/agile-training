@@ -31,4 +31,3 @@ Segment ideas
 * roles and responsibilities
 * team rules
 * root cause analysis and other related models 
- 
