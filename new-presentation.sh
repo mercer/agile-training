@@ -8,10 +8,7 @@ fi
 
 PRESENTATION_NAME=$1
 
-mkdir $PRESENTATION_NAME && \
-    cd $PRESENTATION_NAME && \
-    curl -OL  https://github.com/hakimel/reveal.js/archive/3.0.0.zip && \
+curl -OL  https://github.com/hakimel/reveal.js/archive/3.0.0.zip && \
     unzip 3.0.0.zip && \
+    mv reveal.js-3.0.0 $PRESENTATION_NAME && \
     rm 3.0.0.zip
-
-#git checkout-index -a -f --prefix=/destination/path/
