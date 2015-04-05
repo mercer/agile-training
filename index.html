@@ -22,7 +22,8 @@ $(document).ready( function() {
         $('#' + id).load(function(){
             var iframe = $('#' + id).contents();
             iframe.find('.slides').click(function(){
-                window.location.href = id + '/index.html';
+                window.location.replace(id + '/index.html');
+                //window.location.href = window.location.href + id + '/index.html';
             });
         });
     }
