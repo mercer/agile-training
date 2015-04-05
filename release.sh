@@ -14,4 +14,4 @@ git rm -rf *
 cp -rf ${MASTER}/* ${GH_PAGES}
 git add -A
 git commit -m "update to new version"
-git push
+git push origin gh-pages
