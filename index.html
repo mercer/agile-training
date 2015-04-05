@@ -17,12 +17,11 @@
 <script type="text/javascript">
 $(document).ready( function() {
     function registerClickEvent(index) {
-        console.log(index);
         var id = $(this).attr('id');
         $('#' + id).load(function(){
             var iframe = $('#' + id).contents();
             iframe.find('.slides').click(function(){
-                window.location.href = id + '/index.html';
+                window.location.href = window.location.href + id;
             });
         });
     }
