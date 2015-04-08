@@ -7,8 +7,9 @@
 
 * agile values and principles
     - team values workshop
-* scrum
-    - something related to current process
+* scrum revisited
+    - Workshop: current process?
+    - Workshop: planning game?
 * extreme programming
     - something practical
 * responsibility process
