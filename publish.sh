@@ -2,11 +2,11 @@
 set -e
 
 if [ -z "$1" ]; then
-    echo Usage: `basename $0` GH_PAGES_REPO_PATH 1>&2
-    exit 1
+    GH_PAGES='../agile-training-dist'
+else
+    GH_PAGES=$1
 fi
 
-GH_PAGES=$1
 MASTER="$( cd "$( dirname "$0" )" && pwd )"
 
 cd ${GH_PAGES}
