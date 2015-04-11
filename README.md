@@ -1,34 +1,10 @@
 # Agile Training Presentations and Course Material 
 
+In the first day, this course goes back to basic agile values and principles. It continues with a refresher on scrum, based on team knowledge. Elements of eXtreme Programming are explained. 
 
-## Segments
+In the second day, it goes to talk about high-performance teams using various models.
 
-### Day one
+## Assumptions about the participants
 
-* agile values and principles
-    - team values workshop
-* scrum revisited
-    - Workshop: current process?
-    - Workshop: planning game?
-* extreme programming
-    - something practical
-* responsibility process
-    - something related to reflect on current team approach to this
-
-### Day two
-
-* team formation stages
-    - reflect on current team
-* value stream mapping
-    - do this for the team
-* feedback
-    - reflect how team does this
-* kaizen
-    - something related how team does this and can improve
-    
-Segment ideas
-----------------
-* continuous learning
-* roles and responsibilities
-* team rules
-* root cause analysis and other related models 
+* are a team doing softare development
+* are already familiar with scrum
