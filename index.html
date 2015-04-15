@@ -1,23 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Agile Training Home</title>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <style type="text/css">
+  <title>Agile Training Home</title>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <style type="text/css">
     body {
       background: #eee;
     }
-    </style>
+  </style>
 </head>
 <body>
 
-<div>
   <iframe id="welcome" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="welcome/">
     Unsupported browser.
   </iframe>
-</div>
 
-<div>
   <iframe id="agile-movement" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="agile-movement/">
     Unsupported browser.
   </iframe>
@@ -27,37 +24,34 @@
   <iframe id="extreme-programming" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="extreme-programming/">
     Unsupported browser.
   </iframe>
-</div>
 
-<div>
   <iframe id="the-big-picture" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="the-big-picture/">
     Unsupported browser.
   </iframe>
   <iframe id="personal-leadership" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="personal-leadership/">
     Unsupported browser.
   </iframe>
-</div>
 
-<iframe id="thank-you" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="thank-you/">
-  Unsupported browser.
-</iframe>
+  <iframe id="thank-you" width="400" height="300" frameBorder="0" marginheight="0" marginwidth="0" src="thank-you/">
+    Unsupported browser.
+  </iframe>
 
-<script type="text/javascript">
-$(document).ready( function() {
-    function registerClickEvent(index) {
+  <script type="text/javascript">
+    $(document).ready( function() {
+      function registerClickEvent(index) {
         var id = $(this).attr('id');
         $('#' + id).load(function(){
-            var iframe = $('#' + id).contents();
-            iframe.find('.slides').click(function(){
-                window.location.href = window.location.href + id;
-            });
+          var iframe = $('#' + id).contents();
+          iframe.find('.slides').click(function(){
+            window.location.href = window.location.href + id;
+          });
         });
-    }
+      }
 
-    $('iframe').each(registerClickEvent);
-});
+      $('iframe').each(registerClickEvent);
+    });
 
-</script>
+  </script>
 
 </body>
 </html>
